@@ -1,0 +1,170 @@
+.content-wrap-content2-down{
+    background-color: #2c2c2c;
+    display: flex;
+    width: 100%;
+    
+    .content-wrap-content2-down1{
+        display: flex;
+        justify-content: flex-end;
+        width: 40%;
+        .wrapdiv1{
+            display: flex;
+            width: 65%;
+            height: 80%;
+            margin-right: 30px;
+            margin-top: 20px;
+            .div1{
+                width: 55%;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                img{
+                    margin-right: 40px;
+                
+                }
+            }
+            .div2{
+                border-left: 1px solid #ccc;
+                width: 80%;
+                p{
+                    color: white;
+                    text-align: left;
+                    font-weight: bold;
+                    margin-left: 40px;
+                }
+            }
+        
+        }
+    }
+    .content-wrap-content2-down2{
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        .wrapdown{
+            display: flex;
+            height: 80%;
+            margin-top: 20px;
+            flex-direction: column;
+            .down01{
+            display: flex;
+            width: 100%;
+            justify-content: center;
+            div{
+                width: 100%;
+                display: flex;
+                margin-left: 140px;
+                span{
+                    display: flex;
+                    align-items: center;
+                    margin-right: 5px;
+                    i{
+                        color: white;
+                    }
+                }
+                p{
+                    color: white;
+                    font-weight: bold;
+                    margin-left: 15px;
+                }
+            }
+            }
+            .down02{
+                display: flex;
+                width: 100%;
+                div{
+                    width: 100%;
+                    display: flex;
+                    margin-left: 70px;
+
+                    span{
+                        display: flex;
+                        align-items: flex-start;
+                        margin-right: 5px;
+                        i{
+                            color: white;
+                            margin-top: 2px;
+                        }
+                    }
+                    p{
+                        margin-top: 0px !important;
+                    }
+
+                }
+                }
+                .down03{
+                    display: flex;
+                    width: 100%;
+                    div{
+                        width: 100%;
+                        display: flex;
+                        margin-left: 70px;
+                        span{
+                            display: flex;
+                            align-items: flex-start;
+                            margin-right: 5px;
+                            i{
+                                color: white;
+                                margin-top: 2px;
+                            }
+                        }
+                        p{
+                            margin-top: 0px !important;
+                        }
+
+                    }
+                    }
+        }
+        
+           
+        
+    }
+    .content-wrap-content2-down3{
+        width: 30%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+            div{
+            display: flex;
+            width: 50%;
+            
+            .fb{
+                height: 50px;
+                width: 70px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                i{
+                    font-size: 50px;
+                    color: white;
+                }
+            }
+            .youtube{
+                height: 50px;
+                width: 50px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: white;
+                border-radius: 100%;
+                i{
+                    font-size: 30px;
+                }
+            }
+            .tiktok{
+                height: 50px;
+                width: 50px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 100%;
+                background-color: white;
+                margin-left: 10px;
+                i{
+                    font-size: 30px;
+                }
+            }
+            }
+    }
+}

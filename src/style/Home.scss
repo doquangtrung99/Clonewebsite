@@ -1,0 +1,193 @@
+.Container-Home{
+    background-color: #100601;
+    height: 300vh;
+    .Home-header-container{
+        height: 50vh;
+        background-image: url("https://beta.rocketstudio.game/wp-content/uploads/2022/01/bg3.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        p{
+            color: white;
+            font-weight: bold;
+            font-size: 80px;
+        }
+        p::after{
+            content: url("https://rocketstudio.game/wp-content/themes/rocket-studio/assets/images/bgLINE.png");
+            display: block;
+            position: absolute;
+            top: 25%;
+            right: 45%;
+        }
+    }
+    .Home-body-container{
+        height: 250vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .Home-body-container-top{
+            height: 150vh;
+            width: 80%;
+            margin-top: 40px;
+            display: flex;
+            .Home-body-container-top-left{
+                height: 100%;
+                width: 70%;
+                color: white;
+                display: flex;
+                flex-direction: column;
+                div{
+                    text-align: left;
+                    margin-top: 15px;
+                    margin-left: 100px;
+                    h1{
+                        color: #fd7e14;
+                        margin-bottom: 0px !important;
+                    }
+                    p{
+                        line-height: 13px;
+                    }
+                }
+                .textjustify{
+                    p{
+                        color: #fd7e14;
+                    }
+                }
+            }
+            .Home-body-container-top-right{
+                height: 100%;
+                width: 30%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                div{
+                    margin-top: 50px;
+                    width: 75%;
+                    height: 160px;
+                    background-color: #343a40;
+                    border-radius: 10px;
+                    text-align: left;
+                    color: white;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    p{
+                        margin-left: 30px;
+                        margin-bottom: 0px !important;
+                        margin-top: 0px !important;  
+                        
+                    }
+                    h3{
+                        margin-left: 30px;
+                    }
+                    .ptag{
+                        color: #fd7e14;
+                    }
+                }
+            }
+        }
+        .Home-body-container-bottom{
+            height: 20vh;
+            width: 80%;
+            display: flex;
+            align-items: flex-start;  
+            justify-content: flex-start;     
+            border-bottom: 2px dotted gray;
+            button{
+                color: white;
+                background-color: #fd7e14;
+                height: 50px;
+                width: 150px;
+                border-radius: 6px;
+                margin-left: 100px;
+
+            }
+        }
+    }
+    .applicationForm{
+        color: white;
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 150px;
+        form{
+            width: 100%;
+            h1{
+                text-align: left;
+                color: #fd7e14;
+                font-size: 50px;
+                margin-bottom: 10px !important;
+            }
+            div{
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+                margin-bottom: 20px;
+                input{
+                    width: 100%;
+                    background: black;
+                    border-top: 1px solid white;
+                    border-bottom: 1px solid gray;
+                    border-left: 1px solid gray;
+                    border-right: 1px solid gray;
+                    height: 30px;
+                    border-radius: 3px; 
+                }
+                input::placeholder{
+                    padding-left: 20px;
+                    color: gray;
+                    font-weight: bold;
+                }
+                label{
+                    text-align: left;
+                    font-weight: bold;
+                    margin-bottom: 5px;
+                }
+               
+            }
+            .customfile{
+                background-color: black;
+                border: 2.5px dotted gray;
+                height: 50px;
+                position: relative;
+                .inputfile{
+                    position: absolute;
+                    height: 50px;
+                    top: 0;
+                    left: 0;
+                    bottom: 0;
+                    right: 0;
+                    opacity: 0;
+                }
+                div{
+                    height: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin-bottom: 0px !important;
+                    p{
+                        margin-top: 0px !important;
+                        margin-bottom: 0px !important;
+                        font-size: 15px;
+                        color: gray;
+                        font-weight: bold;
+                    }
+                }
+            }
+            button{
+                background: darkorange;
+                width: 100%;
+                color: white;
+                height: 50px;
+                border-radius: 5px;
+                font-size: 18px;
+                font-weight: bold;
+                margin-top: 20px;
+            }
+        }
+        
+    }
+}

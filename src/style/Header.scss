@@ -1,0 +1,120 @@
+.Container-Header{
+    position: relative;
+    display:flex ;
+    flex-direction: column;
+    height: 1800px;
+    overflow: hidden;
+    .Content-top{
+        height: 43%;
+        background-image: url('https://beta.rocketstudio.game/wp-content/uploads/2022/02/bg-home-company.jpg') ;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top;
+        background-attachment: fixed;
+
+        .Content-up-header{
+            display: flex;
+            width: 100%;
+            height: 30%;
+            
+        }
+        .Content-down-header{
+            margin-top: 100px;
+            transition: all 0.3s ease-in;
+            opacity: 0;
+            .succeed{
+                font-size: 60px;
+                font-weight: bold;
+                color: white;
+            }
+            button{
+                width: 250px;
+                height: 50px;
+                color: white;
+                border: none;
+                border-radius: 7px;
+                background-image: url('file:///C:/Users/DELL/Downloads/button%20(1).svg');
+                background-repeat: no-repeat;
+                background-size: cover;
+                font-size: 20px;
+                margin-top: 25px;
+            }
+            p{
+                color: white;
+                margin-bottom: 10px;
+                font-size: 20px;
+            }
+        }
+        .Content-down-header1{
+            margin-top: 0px;
+            opacity: 1;
+        }
+        
+    }
+    .Content-bottom{
+        height: 150vh;
+        background-color: #100601;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .content-bottom-first{
+            color: white;
+            font-weight: bold;
+            font-size: 60px;
+        }
+        .content-bottom-second{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            color: white;
+            column-gap: 35px;            
+            width: 80%;
+            height: 150vh;
+            div{
+                width: 30%;
+                height: 50%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                div{
+                    height: 20%;
+                    width: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin-top: 20px;
+                    h3{
+                        display: flex;
+                        align-items: flex-start;
+                        font-size: 30px;
+                        color:  rgba(255,138,0);
+                        margin: 0px !important;
+                        height: 100%;
+                        padding-top: 10px;
+                    }
+                }
+                div{
+                    height: 30%;
+                    width: 100%;
+                    p{
+                        font-size: 21px;
+                        margin: 0px !important;
+                        height: 100%;
+                    }
+                }
+               
+                    img{
+                        padding-top: 50px;
+                        height: 25%;
+                        width: 35%;
+                        object-fit: contain;
+                    }
+                
+                
+            }
+        }
+        
+    }
+}
